@@ -1,0 +1,67 @@
+.on{
+    color:#ff9900 ;
+}
+
+/* 底部导航栏 */
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #eee;
+    background:#fff;
+    padding-bottom: .08rem;
+}
+footer ul{
+    width: 100%;
+    display: flex;
+}
+footer ul li{
+    flex: 1;
+    text-align: center;
+}
+footer ul li p{
+    font-size: .22rem;
+}
+footer ul li div{
+    padding-top: .11rem;
+    height: .44rem;
+}
+footer ul li.index div{
+    background: url(../images/tab_home_nor.png) no-repeat center center;
+    background-size: .43rem;
+}
+footer ul li.index1 div{
+    background: url(../images/tab_home_hig.png) no-repeat center center;
+    background-size: .43rem;
+}
+footer ul li.sort div{
+    background: url(../images/tab_menu_nor.png) no-repeat center center;
+    background-size: .34rem;
+}
+footer ul li.sort1 div{
+    background: url(../images/tab_menu_hig.png) no-repeat center center;
+    background-size: .34rem;
+}
+footer ul li.sort1,li.shopCar1,li.mine1,li.index1 p{
+    color: #ff9900;
+}
+footer ul li.shopCar div{
+    background: url(../images/tab_shopping_nor.png) no-repeat center center;
+    background-size: .38rem;
+}
+footer ul li.shopCar1 div{
+    background: url(../images/tab_shopping_hig.png) no-repeat center center;
+    background-size: .38rem;
+}
+/* footer ul li.shopCar1 p{
+    color: #ff9900;
+} */
+footer ul li.mine div{
+    background: url(../images/tab_me_nor.png) no-repeat center center;
+    background-size: .38rem;
+}
+footer ul li.mine1 div{
+    background: url(../images/tab_me_hig.png) no-repeat center center;
+    background-size: .38rem;
+}

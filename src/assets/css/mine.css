@@ -1,0 +1,155 @@
+.mine{
+    background:#efeeee
+}
+.mine header{
+    width: 100%;
+    height: 4.6rem;
+}
+.mine header .headerTop{
+    width: 100%;
+    height: .96rem;
+    background: #ff9900;
+}
+.mine header .headerTop i{
+    font-size: .5rem;
+    margin-top: .27rem;
+    margin-left: .3rem;
+    color: #fff;
+    float: left;
+}
+.mine header .headerTop h2{
+    font-size: .4rem;
+    float: left;
+    width: 5.6rem;
+    text-align: center;
+    margin-top: .28rem;
+    color: #fff;
+}
+.mine header .headerTop>div.talk{
+    background:url(../images/news.png) no-repeat;
+    background-size: .53rem;
+    width: .53rem;
+    height: .47rem;
+    margin-right: .48rem;
+    float: left;
+    margin-top: .27rem;
+    position: relative;
+}
+.mine header .headerTop>div.talk .tips{
+    position: absolute;
+    background:#ff0000;
+    width: .37rem;
+    height: .37rem;
+    border-radius: 50%;
+    color: #fff;
+    line-height: .37rem;
+    right: -.22rem;
+    top: -.19rem;
+    text-align: center;
+
+}
+.myHeader{
+    height: 3.64rem;
+    background:#fafafa
+}
+.myHeader .top{
+    width: 100%;
+    height: 2.28rem;
+    background:#ff9900 ;
+    position: relative;
+}
+.myHeader .top img{
+    width: 2.08rem;
+    height: 2.08rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -.74rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.myHeader .bottom{
+    width: 100%;
+    padding-top: .95rem;
+    font-size: .32rem;
+    text-align: center;
+}
+
+/* 我的收藏 */
+.myCollect {
+    background: #fafafa;
+}
+.myCollect h3{
+    margin-left: .45rem;
+    padding-left: .62rem;
+    line-height: 1.26rem;
+    background: url(../images/mineCollection.jpg) no-repeat 0 .44rem;
+    background-size: .38rem;
+    font-size: .35rem;
+}
+
+/* 我的订单 */
+.orderGoods{
+    background: #fafafa;
+    overflow: hidden;
+    margin-top: .13rem;
+    border-bottom: 1px solid #b3b3b3;
+}
+.orderGoods h3{
+    margin-left: .56rem;
+    line-height: 1.24rem;
+    font-size: .34rem; 
+    float: left;
+}
+.orderGoods p{
+    float: right;
+    font-size: .34rem;
+    line-height: 1.24rem;
+    margin-right: .2rem;
+    color: #999;
+}
+
+.myCenter{
+    height: 1.88rem;
+    background:#fafafa;
+    display: flex;
+}
+
+/* 待收货 */
+.myCenter .content{
+    flex: 1;
+    text-align: center;
+}
+.myCenter .content img{
+    width: .55rem;
+    height: .47rem;
+}
+.myCenter .content .images{
+    position: relative;
+    width: .55rem;
+    height: .47rem;
+   /*  margin-top: .45rem;
+    margin-bottom: .27rem; */
+    margin: .45rem auto .27rem;
+}
+.myCenter .content .coun{
+    position: absolute;
+    right: -.22rem;
+    top: -.19rem;
+    background:#ff0000;
+    width: .37rem;
+    height: .37rem;
+    border-radius: 50%;
+    color: #fff;
+    line-height: .37rem;
+}
+
+/* 收货地址管理 */
+.address{
+    font-size: .34rem;
+    color: #999;
+    margin-top: .14rem;
+    background:#fafafa;
+    line-height: 1.3rem;
+    padding-left: .46rem;
+}

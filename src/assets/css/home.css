@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    height: .8rem;
+    background:#f94172;
+    padding-top: .2rem;
+}
+.header .van-search{
+    height: .60rem;
+    background:#f94172!important;
+    width: 5.18rem;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    height: 3.75rem;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: 100%;
+    text-indent: -9999rem;
+}
+
+/* 今日疯抢 */
+.todayShop{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.todayShop .mainContent{
+    margin: 0 .2rem;
+}
+.todayShop>.shopHeader{
+    padding: 0 .2rem;
+    height: .94rem;
+    display: flex;
+    
+}
+.todayShop>.shopHeader img{
+    width: .29rem;
+    height: .38rem;
+    margin-top: .27rem;
+}
+.todayShop>.shopHeader h2{
+    font-size: .28rem;
+    font-weight: bold;
+    line-height: .94rem;
+    margin-left: .2rem;
+
+}
+.mainShop{
+    text-align: center;
+    margin: 0 0 0 .2rem;
+    
+}
+.mainShop .van-col{
+    width: 3.28rem;
+    border: 1px solid #ccc;
+    padding:0!important;
+    margin-right: .25rem;
+}
+.mainShop a:first-of-type img{
+    width: 1.4rem;
+    height: 2.24rem;
+    margin-top: .52rem;
+}
+.mainShop a .images{
+    height: 3.13rem
+}
+.mainShop .shopBootom{
+    padding: 0 .2rem;
+}
+.mainShop .shopBootom span{
+    font-size: .28rem;
+    color: #e60012;
+    margin-right: .86rem;
+    display: inline-block;
+    height: .58rem;
+    line-height: .58rem;
+}
+.mainShop .shopBootom del{
+    font-size: .24rem;
+    display: inline-block;
+    height: .58rem;
+    line-height: .58rem;
+}
+.mainShop .shopBootom .title{
+    line-height: .4rem;
+    height: .8rem;
+    font-size: .28rem;
+    color: #666666;
+    text-align: left;
+}

@@ -1,0 +1,84 @@
+.sortheader{
+    width: 100%;
+    height: .8rem;
+    background:#ff9900;
+    padding-top: .2rem;
+}
+.sortheader .van-search{
+    height: .60rem;
+    background:#ff9900!important;
+    width: 5.18rem;
+    margin: 0 auto;
+}
+/* 主要部分 */
+.sort .sortMain{
+    max-width: 7.3rem;
+    background:#fff;
+    
+}
+.sort .sortMain ul.bigBox{
+    position: relative;
+}
+.sort .sortMain ul.bigBox li{
+    width: 2.24rem;
+    background:#fafafa;
+}
+.sort .sortMain ul.bigBox li div.mytitle{
+    text-align: center;
+    line-height: .93rem;
+}
+.sort .sortMain ul.bigBox li div.mytitle1{
+    text-align: center;
+    background: #fff;
+    line-height: .93rem;
+}
+
+
+.sort .sortMain ul.bigBox li div.right{
+    width: 5rem;
+    background: #fff;
+    position: absolute;
+    left: 2.34rem;
+    top: 0;
+    
+}
+.sort .sortMain ul.bigBox li div.right ul {
+    overflow: hidden;
+}
+
+/* 右边内容 */
+
+.right ul li{
+    float: left;
+    width: 2.34rem;
+    height: 2.34rem;
+    text-align: center;
+    border: 1px solid #87bed0;
+    border-radius: 5px;
+    margin-left: .145rem;
+    margin-top: .2rem;
+}
+.right ul li .bigLi{
+    border: 1px solid #1d84a7;
+    border-radius: 5px;
+    height: 2.3rem;
+}
+.right ul li .smallLi{
+    border: 1px solid #87bed0;
+    border-radius: 5px;
+    height: 2.26rem;
+    border-top: none;
+}
+
+.right ul li img{
+    width: 1.65rem;
+    height: 1.72rem;
+    margin-top: .14rem;
+}
+.right ul li p{
+    width: 100%;
+    line-height: .42rem;
+    background: #1d84a7;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+} 

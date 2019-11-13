@@ -1,0 +1,287 @@
+.detail .headerTop{
+    width: 100%;
+    height: .96rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999px;
+}
+.detail .headerTop i{
+    width: .57rem;
+    line-height: .57rem;
+    font-size: .45rem;
+    margin-top: .27rem;
+    margin-left: .3rem;
+    color: #fff;
+    float: left;
+    background: url(../images/circle1.png) no-repeat;
+    background-size: .57rem;
+    text-align: center; 
+    z-index: 999rem;
+}
+.detail .headerTop i:first-of-type{
+    margin-right: 4.68rem;
+}
+
+/* 轮播 */
+.tatBanner{
+    text-align: center;
+    z-index: -1;
+    padding-bottom: .31rem;
+    background: #fff;
+    position: relative;
+}
+.tatBanner img{
+    width: 3.18rem;
+    height: 4.82rem;
+    margin-top: .3rem;
+}
+.centerDetail{
+    width: 100%;
+    background: #fff;
+    margin-top: .02rem;
+    padding-top: .08rem;
+    padding-bottom: .2rem;
+   
+}
+.centerDetail .top{
+    display: flex;
+    height: .7rem;
+}
+.centerDetail h2{
+    width: 5.5rem;
+    font-size: .3rem;
+    font-weight: bold;
+    padding-right: .72rem;
+    line-height: .4rem;
+    padding: 0 .7rem 0 .3rem;
+    border-right: 1px solid #ddd;
+}
+.centerDetail span{
+    text-align: right;
+}
+.centerDetail span i{
+    font-size: .36rem;
+    display: block;
+}
+.centerDetail span p{
+    width: .67rem;
+    text-align: right;
+    margin-top: .13rem;
+    font-size: .16rem;
+}
+.centerDetail .center{
+    padding-top: .09rem;
+    padding-left: .3rem;
+}
+.centerDetail .center span{
+    display: inline-block;
+    width: .7rem;
+    height: .3rem;
+    background: #ff9900;
+    line-height: .3rem;
+    text-align: center;
+    color: #fff;
+    margin-right: .2rem;
+    
+}
+.centerDetail .center div.price{
+    display: inline-block;
+    font-size: .34rem;
+    color: #eb2222;
+    margin-right: .44rem;
+    vertical-align: middle;
+}
+.centerDetail .bottom{
+    padding-top: .09rem;
+    padding-left: .3rem;
+}
+.centerDetail .bottom>del{
+    font-size: .24rem;
+
+}
+.centerDetail .bottom>span{
+    font-size: .2rem;
+    display: inline-block;
+    width: 1rem;
+    height: .26rem;
+    border: 2px solid #ff9900;
+    color: #ff9900;
+    margin-right: .2rem;
+    text-align: center;
+}
+
+/* 最后的大背景图 */
+/* .bottomBanner{
+    background: url(../images/detailBanner.jpg);
+    width: 100%;
+    height: 31.97rem;
+    background-size: 100%;
+} */
+.bottomBanner{
+    margin-top: .32rem;
+    
+    background:#fff;
+    
+}
+.bottomTitle{
+    background:#fff;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+}
+.bottomTitle div{
+    display: block;
+    font-size: .26rem;
+    color: #999;
+    line-height: .86rem;
+    flex: 1;
+    text-align: center;
+}
+.onDetail{
+    color: #ff9900!important;
+    border-bottom: 1px solid #ff9900 ;
+}
+
+/* 弹出窗口 */
+.bg{
+    position: fixed;
+    left: 0;
+    top:0;
+    opacity: .6;
+    z-index: inherit;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.window{
+    width: 100%;
+    height: 6.74rem;
+    background:#fff ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.window .windHead{
+    height: 1.9rem
+}
+.images{
+    width: 2.16rem;
+    height: 2.16rem;
+    background: #ddd;
+    position: absolute;
+    top: -.28rem;
+    left: .42rem;
+    text-align: center;
+    border-radius: .08rem;
+}
+.images  img{
+    width: 2.02rem;
+    height: 2.02rem;
+    margin-top: .06rem;
+    
+}
+.window .right{
+    margin-left: 2.8rem;
+    margin-right: .3rem;
+    display: flex;
+    padding-top: .3rem;
+    
+}
+.window .right div.lcont{
+    flex: 7;
+    margin-top: .3rem;
+}
+.window .right div.lcont div:first-of-type{
+    font-size: .3rem;
+    line-height: .34rem;
+    color: #eb2222;
+}
+.window .right div.lcont div{
+    font-size: .25rem;
+    color: #333;
+    line-height: .32rem;
+}
+.right span{
+    display: block;
+    width: .56rem;
+    height: .56rem;
+    background: url(../images/close.png);
+    background-size: .56rem;
+
+}
+.window .right div span{
+    flex: 1; 
+}
+.window .center{
+    padding: .2rem .4rem 0 .43rem;
+    overflow: hidden;
+}
+.window .center span{
+    font-size: .3rem;
+    float: left;
+}
+.center .count{
+    border: 2px solid #ddd;
+    width: 1.96rem;
+    float: right;
+    position: relative;
+
+}
+.center .count input{
+    width: 1.98rem;
+    height: .44rem;
+    padding: 0;
+    border: 1px solid #f4f4f4;
+    margin-left: -.02rem;
+    text-align: center;
+}
+
+.center .count button{
+    width: .5rem;
+    height: .5rem;
+    background: #999;
+    position: absolute;
+    top: -.02rem;
+    border: none;
+    font-size: .4rem;
+}
+.center .count button:nth-of-type(1){
+    left: -.02rem;
+}
+.center .count button:nth-of-type(2){
+    right: -.02rem;
+}
+.cont{
+    margin-top: .2rem;
+    padding-left: .43rem;
+    margin-bottom: .05rem;
+}
+.cont h3{
+    font-size: .3rem;
+    color: #333;
+    line-height: .68rem;
+}
+.cont .contSpan{
+    overflow: hidden;
+}
+.cont span{
+    display: block;
+    width: 1.25rem;
+    line-height: .45rem;
+    background: #999;
+    text-align: center;
+    border-radius: 4px;
+    float: left;
+    margin-right: .2rem;
+    color: #fff;
+}
+.onSpan{
+    background: #ff9900!important;
+}
+.bottomDet .age{
+    margin-bottom: .45rem;
+}
+.bottomDet .age span{
+    width: 1.75rem;
+}
